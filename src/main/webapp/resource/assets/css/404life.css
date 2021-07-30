@@ -1,0 +1,50 @@
+a {
+  color: inherit;
+}
+
+.terminal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60%;
+  padding: 0 20%;
+  /*background-color: white;*/
+  color: black;
+  font-family: consolas;
+}
+.terminal #title {
+  text-align: center;
+  width: 100%;
+  font-size: 6em;
+}
+.terminal .text {
+  display: inline-block;
+}
+.terminal .cursor {
+  display: inline;
+  animation: blink 0.75s linear infinite;
+}
+.terminal .c {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.terminal .c .hearth {
+  display: inline !important;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

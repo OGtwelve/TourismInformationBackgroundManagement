@@ -9,7 +9,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index.html" class="nav-link">首页</a>
+        <a href="${pageContext.request.contextPath}/CY" class="nav-link">首页</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="javaScript:void(0)" id="myInformationButton" class="nav-link" data-toggle="modal" data-target="#myInformation">个人信息</a> 
